@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manager page</title>
+</head>
+<body>
+<h1>Manager Information</h1>
+<ul>
+    <!-- Iterera över manager-info -->
+    <li th:each="manager : ${managerInfo}">
+        <strong th:text="${manager.name}"></strong> - <span th:text="${manager.position}"></span>
+    </li>
+</ul>
+
+<h2>Admin Documents</h2>
+<ul>
+    <!-- Iterera över admin-dokument -->
+    <li th:each="document : ${adminDocuments}">
+        <strong th:text="${document.title}"></strong>: <span th:text="${document.description}"></span>
+    </li>
+</ul>
+
+</body>
+</html>
