@@ -1,4 +1,4 @@
-package se.caroline.projektspring;
+package se.caroline.projektspring.component;
 
 import org.springframework.stereotype.Component;
 import se.caroline.projektspring.model.AdminDocument;

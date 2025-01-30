@@ -13,7 +13,7 @@ import se.caroline.projektspring.db.ApplicationUserRepository;
 import se.caroline.projektspring.model.ApplicationUser;
 
 import java.util.List;
-
+//komentera
 @Service
 public class CustomUserDetailsService implements UserDetailsService {
 

@@ -1,8 +1,7 @@
-package se.caroline.projektspring;
+package se.caroline.projektspring.component;
 
 import org.springframework.stereotype.Component;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import se.caroline.projektspring.model.ManagerDocument;
+import se.caroline.projektspring.ManagerInfo;
 
 import java.util.List;
 
